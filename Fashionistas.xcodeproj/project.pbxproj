@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20DCBD127C04E282A551A394 /* libPods-Fashionistas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */; };
+		EEB176EB1C1601F8006D360A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176EA1C1601F8006D360A /* main.m */; };
+		EEB176EE1C1601F8006D360A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176ED1C1601F8006D360A /* AppDelegate.m */; };
+		EEB176F11C1601F8006D360A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176F01C1601F8006D360A /* ViewController.m */; };
+		EEB176F41C1601F8006D360A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB176F21C1601F8006D360A /* Main.storyboard */; };
+		EEB176F71C1601F8006D360A /* Fashionistas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEB176F51C1601F8006D360A /* Fashionistas.xcdatamodeld */; };
+		EEB176F91C1601F8006D360A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB176F81C1601F8006D360A /* Assets.xcassets */; };
+		EEB176FC1C1601F8006D360A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB176FA1C1601F8006D360A /* LaunchScreen.storyboard */; };
+		EEB177071C1601F8006D360A /* FashionistasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177061C1601F8006D360A /* FashionistasTests.m */; };
+		EEB177121C1601F8006D360A /* FashionistasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177111C1601F8006D360A /* FashionistasUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB177031C1601F8006D360A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB176DE1C1601F8006D360A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB176E51C1601F8006D360A;
+			remoteInfo = Fashionistas;
+		};
+		EEB1770E1C1601F8006D360A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB176DE1C1601F8006D360A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB176E51C1601F8006D360A;
+			remoteInfo = Fashionistas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionistas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas.release.xcconfig"; sourceTree = "<group>"; };
+		D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionistas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas.debug.xcconfig"; sourceTree = "<group>"; };
+		EEB176E61C1601F8006D360A /* Fashionistas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashionistas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB176EA1C1601F8006D360A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB176EC1C1601F8006D360A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEB176ED1C1601F8006D360A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEB176EF1C1601F8006D360A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEB176F01C1601F8006D360A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEB176F31C1601F8006D360A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB176F61C1601F8006D360A /* Fashionistas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fashionistas.xcdatamodel; sourceTree = "<group>"; };
+		EEB176F81C1601F8006D360A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB176FB1C1601F8006D360A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB176FD1C1601F8006D360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB177021C1601F8006D360A /* FashionistasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionistasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB177061C1601F8006D360A /* FashionistasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FashionistasTests.m; sourceTree = "<group>"; };
+		EEB177081C1601F8006D360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB1770D1C1601F8006D360A /* FashionistasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionistasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB177111C1601F8006D360A /* FashionistasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FashionistasUITests.m; sourceTree = "<group>"; };
+		EEB177131C1601F8006D360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fashionistas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB176E31C1601F8006D360A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DCBD127C04E282A551A394 /* libPods-Fashionistas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB176FF1C1601F8006D360A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB1770A1C1601F8006D360A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C97DACD8DC7474D07E981F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */,
+				346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA85BA2A16E523EF5EB9E04E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB176DD1C1601F8006D360A = {
+			isa = PBXGroup;
+			children = (
+				EEB176E81C1601F8006D360A /* Fashionistas */,
+				EEB177051C1601F8006D360A /* FashionistasTests */,
+				EEB177101C1601F8006D360A /* FashionistasUITests */,
+				EEB176E71C1601F8006D360A /* Products */,
+				D3C97DACD8DC7474D07E981F /* Pods */,
+				DA85BA2A16E523EF5EB9E04E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB176E71C1601F8006D360A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB176E61C1601F8006D360A /* Fashionistas.app */,
+				EEB177021C1601F8006D360A /* FashionistasTests.xctest */,
+				EEB1770D1C1601F8006D360A /* FashionistasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB176E81C1601F8006D360A /* Fashionistas */ = {
+			isa = PBXGroup;
+			children = (
+				EEB176EC1C1601F8006D360A /* AppDelegate.h */,
+				EEB176ED1C1601F8006D360A /* AppDelegate.m */,
+				EEB176EF1C1601F8006D360A /* ViewController.h */,
+				EEB176F01C1601F8006D360A /* ViewController.m */,
+				EEB176F21C1601F8006D360A /* Main.storyboard */,
+				EEB176F81C1601F8006D360A /* Assets.xcassets */,
+				EEB176FA1C1601F8006D360A /* LaunchScreen.storyboard */,
+				EEB176FD1C1601F8006D360A /* Info.plist */,
+				EEB176F51C1601F8006D360A /* Fashionistas.xcdatamodeld */,
+				EEB176E91C1601F8006D360A /* Supporting Files */,
+			);
+			path = Fashionistas;
+			sourceTree = "<group>";
+		};
+		EEB176E91C1601F8006D360A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB176EA1C1601F8006D360A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB177051C1601F8006D360A /* FashionistasTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB177061C1601F8006D360A /* FashionistasTests.m */,
+				EEB177081C1601F8006D360A /* Info.plist */,
+			);
+			path = FashionistasTests;
+			sourceTree = "<group>";
+		};
+		EEB177101C1601F8006D360A /* FashionistasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB177111C1601F8006D360A /* FashionistasUITests.m */,
+				EEB177131C1601F8006D360A /* Info.plist */,
+			);
+			path = FashionistasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB176E51C1601F8006D360A /* Fashionistas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB177161C1601F8006D360A /* Build configuration list for PBXNativeTarget "Fashionistas" */;
+			buildPhases = (
+				50346771F165D0B86B54791E /* Check Pods Manifest.lock */,
+				EEB176E21C1601F8006D360A /* Sources */,
+				EEB176E31C1601F8006D360A /* Frameworks */,
+				EEB176E41C1601F8006D360A /* Resources */,
+				71601E9C7C14C8147C0144DB /* Embed Pods Frameworks */,
+				D8CCB89E683F79D52057CD36 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fashionistas;
+			productName = Fashionistas;
+			productReference = EEB176E61C1601F8006D360A /* Fashionistas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB177011C1601F8006D360A /* FashionistasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB177191C1601F8006D360A /* Build configuration list for PBXNativeTarget "FashionistasTests" */;
+			buildPhases = (
+				EEB176FE1C1601F8006D360A /* Sources */,
+				EEB176FF1C1601F8006D360A /* Frameworks */,
+				EEB177001C1601F8006D360A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB177041C1601F8006D360A /* PBXTargetDependency */,
+			);
+			name = FashionistasTests;
+			productName = FashionistasTests;
+			productReference = EEB177021C1601F8006D360A /* FashionistasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB1770C1C1601F8006D360A /* FashionistasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB1771C1C1601F8006D360A /* Build configuration list for PBXNativeTarget "FashionistasUITests" */;
+			buildPhases = (
+				EEB177091C1601F8006D360A /* Sources */,
+				EEB1770A1C1601F8006D360A /* Frameworks */,
+				EEB1770B1C1601F8006D360A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB1770F1C1601F8006D360A /* PBXTargetDependency */,
+			);
+			name = FashionistasUITests;
+			productName = FashionistasUITests;
+			productReference = EEB1770D1C1601F8006D360A /* FashionistasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB176DE1C1601F8006D360A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sm;
+				TargetAttributes = {
+					EEB176E51C1601F8006D360A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = H24WV8N3GG;
+					};
+					EEB177011C1601F8006D360A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = H24WV8N3GG;
+						TestTargetID = EEB176E51C1601F8006D360A;
+					};
+					EEB1770C1C1601F8006D360A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = H24WV8N3GG;
+						TestTargetID = EEB176E51C1601F8006D360A;
+					};
+				};
+			};
+			buildConfigurationList = EEB176E11C1601F8006D360A /* Build configuration list for PBXProject "Fashionistas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB176DD1C1601F8006D360A;
+			productRefGroup = EEB176E71C1601F8006D360A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB176E51C1601F8006D360A /* Fashionistas */,
+				EEB177011C1601F8006D360A /* FashionistasTests */,
+				EEB1770C1C1601F8006D360A /* FashionistasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB176E41C1601F8006D360A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB176FC1C1601F8006D360A /* LaunchScreen.storyboard in Resources */,
+				EEB176F91C1601F8006D360A /* Assets.xcassets in Resources */,
+				EEB176F41C1601F8006D360A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB177001C1601F8006D360A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB1770B1C1601F8006D360A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50346771F165D0B86B54791E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71601E9C7C14C8147C0144DB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CCB89E683F79D52057CD36 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB176E21C1601F8006D360A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB176F11C1601F8006D360A /* ViewController.m in Sources */,
+				EEB176F71C1601F8006D360A /* Fashionistas.xcdatamodeld in Sources */,
+				EEB176EE1C1601F8006D360A /* AppDelegate.m in Sources */,
+				EEB176EB1C1601F8006D360A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB176FE1C1601F8006D360A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB177071C1601F8006D360A /* FashionistasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB177091C1601F8006D360A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB177121C1601F8006D360A /* FashionistasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB177041C1601F8006D360A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB176E51C1601F8006D360A /* Fashionistas */;
+			targetProxy = EEB177031C1601F8006D360A /* PBXContainerItemProxy */;
+		};
+		EEB1770F1C1601F8006D360A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB176E51C1601F8006D360A /* Fashionistas */;
+			targetProxy = EEB1770E1C1601F8006D360A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB176F21C1601F8006D360A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB176F31C1601F8006D360A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB176FA1C1601F8006D360A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB176FB1C1601F8006D360A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB177141C1601F8006D360A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEB177151C1601F8006D360A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB177171C1601F8006D360A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fashionistas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.Fashionistas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEB177181C1601F8006D360A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fashionistas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.Fashionistas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEB1771A1C1601F8006D360A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FashionistasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.FashionistasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fashionistas.app/Fashionistas";
+			};
+			name = Debug;
+		};
+		EEB1771B1C1601F8006D360A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FashionistasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.FashionistasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fashionistas.app/Fashionistas";
+			};
+			name = Release;
+		};
+		EEB1771D1C1601F8006D360A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FashionistasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.FashionistasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fashionistas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEB1771E1C1601F8006D360A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FashionistasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sm.FashionistasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fashionistas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB176E11C1601F8006D360A /* Build configuration list for PBXProject "Fashionistas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB177141C1601F8006D360A /* Debug */,
+				EEB177151C1601F8006D360A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB177161C1601F8006D360A /* Build configuration list for PBXNativeTarget "Fashionistas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB177171C1601F8006D360A /* Debug */,
+				EEB177181C1601F8006D360A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB177191C1601F8006D360A /* Build configuration list for PBXNativeTarget "FashionistasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1771A1C1601F8006D360A /* Debug */,
+				EEB1771B1C1601F8006D360A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB1771C1C1601F8006D360A /* Build configuration list for PBXNativeTarget "FashionistasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB1771D1C1601F8006D360A /* Debug */,
+				EEB1771E1C1601F8006D360A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEB176F51C1601F8006D360A /* Fashionistas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEB176F61C1601F8006D360A /* Fashionistas.xcdatamodel */,
+			);
+			currentVersion = EEB176F61C1601F8006D360A /* Fashionistas.xcdatamodel */;
+			path = Fashionistas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEB176DE1C1601F8006D360A /* Project object */;
+}
