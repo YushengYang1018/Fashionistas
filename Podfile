@@ -5,6 +5,7 @@
 
 target 'Fashionistas' do
 pod 'MMDrawerController', '~> 0.5.7'
+pod 'MUKMediaGallery', '~> 2.0'
 end
 
 target 'FashionistasTests' do

@@ -8,15 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		20DCBD127C04E282A551A394 /* libPods-Fashionistas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */; };
+		EE6460561C17600600091C9B /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460551C17600600091C9B /* PlaceAnnotation.m */; };
 		EEB176EB1C1601F8006D360A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176EA1C1601F8006D360A /* main.m */; };
 		EEB176EE1C1601F8006D360A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176ED1C1601F8006D360A /* AppDelegate.m */; };
-		EEB176F11C1601F8006D360A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176F01C1601F8006D360A /* ViewController.m */; };
 		EEB176F41C1601F8006D360A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB176F21C1601F8006D360A /* Main.storyboard */; };
 		EEB176F71C1601F8006D360A /* Fashionistas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEB176F51C1601F8006D360A /* Fashionistas.xcdatamodeld */; };
 		EEB176F91C1601F8006D360A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB176F81C1601F8006D360A /* Assets.xcassets */; };
 		EEB176FC1C1601F8006D360A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB176FA1C1601F8006D360A /* LaunchScreen.storyboard */; };
 		EEB177071C1601F8006D360A /* FashionistasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177061C1601F8006D360A /* FashionistasTests.m */; };
 		EEB177121C1601F8006D360A /* FashionistasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177111C1601F8006D360A /* FashionistasUITests.m */; };
+		EEB177251C160DB9006D360A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177241C160DB9006D360A /* HomeViewController.m */; };
+		EEB1772E1C161036006D360A /* LeftDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1772D1C161036006D360A /* LeftDrawerController.m */; };
+		EEB177311C161065006D360A /* LeftDrawerTableContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177301C161065006D360A /* LeftDrawerTableContentController.m */; };
+		EEB177341C161792006D360A /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177331C161792006D360A /* MMNavigationController.m */; };
+		EEB1773B1C162D11006D360A /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1773A1C162D11006D360A /* ServiceViewController.m */; };
+		EEB1773E1C162F28006D360A /* CenterViewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1773D1C162F28006D360A /* CenterViewBaseController.m */; };
+		EEB177421C172904006D360A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB177411C172904006D360A /* FBSDKCoreKit.framework */; };
+		EEB177461C173073006D360A /* Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177451C173073006D360A /* Parameters.m */; };
+		EEB177481C1733D2006D360A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB177471C1733D2006D360A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +48,12 @@
 /* Begin PBXFileReference section */
 		346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionistas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas.release.xcconfig"; sourceTree = "<group>"; };
 		D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionistas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas.debug.xcconfig"; sourceTree = "<group>"; };
+		EE6460541C17600600091C9B /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
+		EE6460551C17600600091C9B /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
 		EEB176E61C1601F8006D360A /* Fashionistas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashionistas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB176EA1C1601F8006D360A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEB176EC1C1601F8006D360A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEB176ED1C1601F8006D360A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEB176EF1C1601F8006D360A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEB176F01C1601F8006D360A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EEB176F31C1601F8006D360A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEB176F61C1601F8006D360A /* Fashionistas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fashionistas.xcdatamodel; sourceTree = "<group>"; };
 		EEB176F81C1601F8006D360A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +65,22 @@
 		EEB1770D1C1601F8006D360A /* FashionistasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionistasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB177111C1601F8006D360A /* FashionistasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FashionistasUITests.m; sourceTree = "<group>"; };
 		EEB177131C1601F8006D360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB177231C160DB9006D360A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EEB177241C160DB9006D360A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EEB1772C1C161036006D360A /* LeftDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerController.h; sourceTree = "<group>"; };
+		EEB1772D1C161036006D360A /* LeftDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerController.m; sourceTree = "<group>"; };
+		EEB1772F1C161065006D360A /* LeftDrawerTableContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftDrawerTableContentController.h; sourceTree = "<group>"; };
+		EEB177301C161065006D360A /* LeftDrawerTableContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftDrawerTableContentController.m; sourceTree = "<group>"; };
+		EEB177321C161792006D360A /* MMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
+		EEB177331C161792006D360A /* MMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
+		EEB177391C162D11006D360A /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		EEB1773A1C162D11006D360A /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
+		EEB1773C1C162F28006D360A /* CenterViewBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewBaseController.h; sourceTree = "<group>"; };
+		EEB1773D1C162F28006D360A /* CenterViewBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewBaseController.m; sourceTree = "<group>"; };
+		EEB177411C172904006D360A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EEB177441C173073006D360A /* Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parameters.h; sourceTree = "<group>"; };
+		EEB177451C173073006D360A /* Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parameters.m; sourceTree = "<group>"; };
+		EEB177471C1733D2006D360A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fashionistas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -65,6 +90,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DCBD127C04E282A551A394 /* libPods-Fashionistas.a in Frameworks */,
+				EEB177481C1733D2006D360A /* MapKit.framework in Frameworks */,
+				EEB177421C172904006D360A /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +124,8 @@
 		DA85BA2A16E523EF5EB9E04E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EEB177471C1733D2006D360A /* MapKit.framework */,
+				EEB177411C172904006D360A /* FBSDKCoreKit.framework */,
 				FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */,
 			);
 			name = Frameworks;
@@ -127,10 +156,13 @@
 		EEB176E81C1601F8006D360A /* Fashionistas */ = {
 			isa = PBXGroup;
 			children = (
+				EEB177431C173035006D360A /* utils */,
+				EEB177221C1602F0006D360A /* signin */,
+				EEB177211C1602E8006D360A /* view */,
+				EEB177201C1602E4006D360A /* model */,
+				EEB1771F1C1602DE006D360A /* controller */,
 				EEB176EC1C1601F8006D360A /* AppDelegate.h */,
 				EEB176ED1C1601F8006D360A /* AppDelegate.m */,
-				EEB176EF1C1601F8006D360A /* ViewController.h */,
-				EEB176F01C1601F8006D360A /* ViewController.m */,
 				EEB176F21C1601F8006D360A /* Main.storyboard */,
 				EEB176F81C1601F8006D360A /* Assets.xcassets */,
 				EEB176FA1C1601F8006D360A /* LaunchScreen.storyboard */,
@@ -165,6 +197,65 @@
 				EEB177131C1601F8006D360A /* Info.plist */,
 			);
 			path = FashionistasUITests;
+			sourceTree = "<group>";
+		};
+		EEB1771F1C1602DE006D360A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEB177351C1617AB006D360A /* drawer */,
+				EEB177231C160DB9006D360A /* HomeViewController.h */,
+				EEB177241C160DB9006D360A /* HomeViewController.m */,
+				EEB177391C162D11006D360A /* ServiceViewController.h */,
+				EEB1773A1C162D11006D360A /* ServiceViewController.m */,
+				EEB1772C1C161036006D360A /* LeftDrawerController.h */,
+				EEB1772D1C161036006D360A /* LeftDrawerController.m */,
+				EEB1772F1C161065006D360A /* LeftDrawerTableContentController.h */,
+				EEB177301C161065006D360A /* LeftDrawerTableContentController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		EEB177201C1602E4006D360A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EE6460541C17600600091C9B /* PlaceAnnotation.h */,
+				EE6460551C17600600091C9B /* PlaceAnnotation.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		EEB177211C1602E8006D360A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		EEB177221C1602F0006D360A /* signin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = signin;
+			sourceTree = "<group>";
+		};
+		EEB177351C1617AB006D360A /* drawer */ = {
+			isa = PBXGroup;
+			children = (
+				EEB177321C161792006D360A /* MMNavigationController.h */,
+				EEB177331C161792006D360A /* MMNavigationController.m */,
+				EEB1773C1C162F28006D360A /* CenterViewBaseController.h */,
+				EEB1773D1C162F28006D360A /* CenterViewBaseController.m */,
+			);
+			name = drawer;
+			sourceTree = "<group>";
+		};
+		EEB177431C173035006D360A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EEB177441C173073006D360A /* Parameters.h */,
+				EEB177451C173073006D360A /* Parameters.m */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +329,11 @@
 					EEB176E51C1601F8006D360A = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = H24WV8N3GG;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EEB177011C1601F8006D360A = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -351,9 +447,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB176F11C1601F8006D360A /* ViewController.m in Sources */,
+				EEB177311C161065006D360A /* LeftDrawerTableContentController.m in Sources */,
+				EEB177341C161792006D360A /* MMNavigationController.m in Sources */,
+				EEB1773B1C162D11006D360A /* ServiceViewController.m in Sources */,
 				EEB176F71C1601F8006D360A /* Fashionistas.xcdatamodeld in Sources */,
 				EEB176EE1C1601F8006D360A /* AppDelegate.m in Sources */,
+				EE6460561C17600600091C9B /* PlaceAnnotation.m in Sources */,
+				EEB177461C173073006D360A /* Parameters.m in Sources */,
+				EEB177251C160DB9006D360A /* HomeViewController.m in Sources */,
+				EEB1772E1C161036006D360A /* LeftDrawerController.m in Sources */,
+				EEB1773E1C162F28006D360A /* CenterViewBaseController.m in Sources */,
 				EEB176EB1C1601F8006D360A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +597,10 @@
 			baseConfigurationReference = D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Fashionistas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sm.Fashionistas;
@@ -506,6 +613,10 @@
 			baseConfigurationReference = 346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Fashionistas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sm.Fashionistas;
