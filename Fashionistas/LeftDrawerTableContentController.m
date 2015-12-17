@@ -9,22 +9,30 @@
 #import "LeftDrawerTableContentController.h"
 #import "AppDelegate.h"
 #import "MMNavigationController.h"
+#import "DrawerTableViewCell.h"
 
 @interface LeftDrawerTableContentController ()
 
 @property (strong,nonatomic)AppDelegate *myDelegate;
 @property (strong,nonatomic)UINavigationController *homeViewController;
 @property (strong,nonatomic)UINavigationController *serviceViewController;
+@property (strong,nonatomic)UINavigationController *galleryViewController;
+@property (strong,nonatomic)UINavigationController *promotionsViewController;
+@property (strong,nonatomic)UINavigationController *aboutViewController;
+
+@property (strong,nonatomic)NSArray *contentArray;
 
 @end
+
 
 @implementation LeftDrawerTableContentController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.myDelegate = [[UIApplication sharedApplication] delegate];
-    
+    self.myDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    self.contentArray = @[@"Home", @"Service",@"Gallery",@"Promotion",@"About"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"DrawerTableViewCell" bundle:nil] forCellReuseIdentifier:@"DrawerTableViewCell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,23 +54,51 @@
             [[self.myDelegate drawerController]setCenterViewController:self.serviceViewController];
             [[self.myDelegate drawerController]toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
             break;
+        case 2:
+            [[self.myDelegate drawerController]setCenterViewController:self.galleryViewController];
+            [[self.myDelegate drawerController]toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+            break;
+        case 3:
+            [[self.myDelegate drawerController]setCenterViewController:self.promotionsViewController];
+            [[self.myDelegate drawerController]toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+            break;
+        case 4:
+            [[self.myDelegate drawerController]setCenterViewController:self.aboutViewController];
+            [[self.myDelegate drawerController]toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+            break;
         default:
             break;
     }
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [self.contentArray count];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 55.0;
+}
 
 
-
-/*
  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
- UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
+     static NSString *simpleTableIdentifier = @"DrawerTableViewCell";
+     DrawerTableViewCell *cell = (DrawerTableViewCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+     if (!cell) {
+         cell = [[DrawerTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+     }
+     cell.ImageView.image = [UIImage imageNamed:self.contentArray[indexPath.row]];
+     cell.nameLabel.text = self.contentArray[indexPath.row];
  
- // Configure the cell...
- 
- return cell;
+     return cell;
  }
- */
+
 
 /*
  // Override to support conditional editing of the table view.
@@ -126,6 +162,44 @@
     }
     return _serviceViewController;
 }
+             
+- (UINavigationController *)galleryViewController
+{
+    if(!_galleryViewController){
+        UICollectionViewController *galleryViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"GalleryCollectionViewController"];
+        _galleryViewController = [[MMNavigationController alloc]initWithRootViewController:galleryViewController];
+    }
+    return _galleryViewController;
+                 
+}
 
+- (UINavigationController *)promotionsViewController
+{
+    if (!_promotionsViewController) {
+        UIViewController *promotion = [self.storyboard instantiateViewControllerWithIdentifier:@"PromotionsViewController"];
+        _promotionsViewController = [[MMNavigationController alloc]initWithRootViewController:promotion];
+    }
+    
+    return _promotionsViewController;
+}
+
+- (UINavigationController *)aboutViewController
+{
+    if (!_aboutViewController) {
+        UIViewController *about = [self.storyboard instantiateViewControllerWithIdentifier:@"AboutViewController"];
+        _aboutViewController = [[MMNavigationController alloc]initWithRootViewController:about];
+    }
+    
+    return _aboutViewController;
+}
 
 @end
+
+
+
+
+
+
+
+
+

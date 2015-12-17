@@ -9,14 +9,23 @@
 #import "HomeViewController.h"
 #import "Parameters.h"
 #import "PlaceAnnotation.h"
+#import <BFPaperButton/BFPaperButton.h>
+#import <UIColor+BFPaperColors/UIColor+BFPaperColors.h>
+#import "AppointmentViewController.h"
+
 
 @interface HomeViewController ()
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) IBOutlet BFPaperButton *makeAppointmentButton;
+
+
 @property (strong,nonatomic)CLLocationManager *locationManager;
 @property (strong,nonatomic)CLLocation *currentLocation;
 @property (assign,nonatomic)CLLocationDistance distanceToSalon;
 @property (strong, nonatomic)CLLocation *salonLocation;
+
+@property (strong, nonatomic)UINavigationController *appointmentNavigationController;
 
 @end
 
@@ -50,7 +59,16 @@
             [self performSelectorOnMainThread:@selector(placeAnnotation:) withObject:self.salonLocation waitUntilDone:YES];
         }
     }];
+    
+    //init appointment button
+    [self.makeAppointmentButton setTitle:@"Make Appointment" forState:UIControlStateNormal];
+    self.makeAppointmentButton.backgroundColor = [UIColor paperColorYellow800];
+    [self.makeAppointmentButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [self.makeAppointmentButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
+    self.makeAppointmentButton.isRaised = NO;
 }
+
+
 
 - (void)placeAnnotation:(CLLocation *)location
 {
@@ -86,8 +104,6 @@ MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(fromLocation.coor
                               [NSValue valueWithMKCoordinate:region.center], MKLaunchOptionsMapCenterKey,
                               [NSValue valueWithMKCoordinateSpan:region.span], MKLaunchOptionsMapSpanKey, nil]];
 }
-
-#pragma mark - MKMapViewDelegate
 
 
 

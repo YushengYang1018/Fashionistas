@@ -8,7 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		20DCBD127C04E282A551A394 /* libPods-Fashionistas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */; };
+		EE5C536C1C1F0839006927DB /* DrawerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5C536B1C1F0839006927DB /* DrawerTableViewCell.xib */; };
+		EE5C53701C1F16AD006927DB /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5C536F1C1F16AD006927DB /* SignIn.storyboard */; };
+		EE5C53751C1F16B7006927DB /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C53721C1F16B7006927DB /* SignInViewController.m */; };
+		EE5C53761C1F16B7006927DB /* signUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C53741C1F16B7006927DB /* signUpViewController.m */; };
+		EE5C537A1C1F18AF006927DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE5C53791C1F18AF006927DB /* GoogleService-Info.plist */; };
+		EE5C537D1C1F1A93006927DB /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C537C1C1F1A93006927DB /* Config.m */; };
+		EE5C53871C1F1ABB006927DB /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C53801C1F1ABB006927DB /* AESCrypt.m */; };
+		EE5C53881C1F1ABB006927DB /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C53821C1F1ABB006927DB /* NSData+Base64.m */; };
+		EE5C53891C1F1ABB006927DB /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C53841C1F1ABB006927DB /* NSData+CommonCrypto.m */; };
+		EE5C538A1C1F1ABB006927DB /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C53861C1F1ABB006927DB /* NSString+Base64.m */; };
+		EE5C538F1C1F9A85006927DB /* home_aboutfs_btn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE5C538B1C1F9A85006927DB /* home_aboutfs_btn.jpg */; };
+		EE5C53901C1F9A85006927DB /* home_aboutlucia_btn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE5C538C1C1F9A85006927DB /* home_aboutlucia_btn.jpg */; };
+		EE5C53911C1F9A85006927DB /* home_mainimg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE5C538D1C1F9A85006927DB /* home_mainimg2.jpg */; };
+		EE5C53921C1F9A85006927DB /* home_services_btn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE5C538E1C1F9A85006927DB /* home_services_btn.jpg */; };
+		EE5C53961C205582006927DB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5C53951C205582006927DB /* FBSDKLoginKit.framework */; };
+		EE5C53971C205C10006927DB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB177411C172904006D360A /* FBSDKCoreKit.framework */; };
+		EE5C53991C20B559006927DB /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5C53981C20B559006927DB /* GalleryCollectionViewCell.xib */; };
+		EE5C539C1C20B5F0006927DB /* GalleryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C539B1C20B5F0006927DB /* GalleryCollectionViewCell.m */; };
 		EE6460561C17600600091C9B /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460551C17600600091C9B /* PlaceAnnotation.m */; };
+		EE6460591C179B7600091C9B /* GalleryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460581C179B7600091C9B /* GalleryCollectionViewController.m */; };
+		EE6460D61C18BB6000091C9B /* salon.json in Resources */ = {isa = PBXBuildFile; fileRef = EE6460D51C18BB6000091C9B /* salon.json */; };
+		EE6460D91C18BBC500091C9B /* SalonServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460D81C18BBC500091C9B /* SalonServiceModel.m */; };
+		EE6460DC1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460DB1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.m */; };
+		EE6460DE1C18C83200091C9B /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6460DD1C18C83200091C9B /* ButtonCell.xib */; };
+		EE6460E11C18CD2C00091C9B /* SalonServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460E01C18CD2C00091C9B /* SalonServiceTableViewCell.m */; };
+		EE6460E41C18CF2500091C9B /* SalonMenHairTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460E31C18CF2500091C9B /* SalonMenHairTableViewController.m */; };
+		EE6460E71C18D0D700091C9B /* SalonNailsServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460E61C18D0D700091C9B /* SalonNailsServiceTableViewController.m */; };
+		EE6460EA1C1915C500091C9B /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460E91C1915C500091C9B /* AppointmentViewController.m */; };
+		EE6460EE1C1918DB00091C9B /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6460ED1C1918DB00091C9B /* logo.jpg */; };
+		EE6460F11C191DDB00091C9B /* DrawerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6460F01C191DDB00091C9B /* DrawerTableViewCell.m */; };
+		EE6460F31C19224600091C9B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6460F21C19224600091C9B /* MessageUI.framework */; };
+		EE6461011C19E32C00091C9B /* PromotionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6461001C19E32C00091C9B /* PromotionsViewController.m */; };
+		EE6461031C1A066D00091C9B /* promotionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6461021C1A066D00091C9B /* promotionView.xib */; };
+		EE6461091C1A6BAA00091C9B /* about_employeespic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6461041C1A6BAA00091C9B /* about_employeespic1.jpg */; };
+		EE64610A1C1A6BAA00091C9B /* about_employeespic6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6461051C1A6BAA00091C9B /* about_employeespic6.jpg */; };
+		EE64610B1C1A6BAA00091C9B /* about_employeespic8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6461061C1A6BAA00091C9B /* about_employeespic8.jpg */; };
+		EE64610C1C1A6BAA00091C9B /* about_employeesubhead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6461071C1A6BAA00091C9B /* about_employeesubhead.jpg */; };
+		EE64610D1C1A6BAA00091C9B /* aboutfs_head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6461081C1A6BAA00091C9B /* aboutfs_head.jpg */; };
+		EE6461111C1A6BD000091C9B /* h_monthlyspecials.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE64610E1C1A6BD000091C9B /* h_monthlyspecials.jpg */; };
+		EE6461121C1A6BD000091C9B /* promo_head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE64610F1C1A6BD000091C9B /* promo_head.jpg */; };
+		EE6461131C1A6BD000091C9B /* promotion_referallsubhead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE6461101C1A6BD000091C9B /* promotion_referallsubhead.jpg */; };
+		EE6461151C1A6BEA00091C9B /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6461141C1A6BEA00091C9B /* AboutView.xib */; };
+		EE6461181C1A7B9000091C9B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6461171C1A7B9000091C9B /* AboutViewController.m */; };
 		EEB176EB1C1601F8006D360A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176EA1C1601F8006D360A /* main.m */; };
 		EEB176EE1C1601F8006D360A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB176ED1C1601F8006D360A /* AppDelegate.m */; };
 		EEB176F41C1601F8006D360A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB176F21C1601F8006D360A /* Main.storyboard */; };
@@ -23,7 +65,6 @@
 		EEB177341C161792006D360A /* MMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177331C161792006D360A /* MMNavigationController.m */; };
 		EEB1773B1C162D11006D360A /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1773A1C162D11006D360A /* ServiceViewController.m */; };
 		EEB1773E1C162F28006D360A /* CenterViewBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1773D1C162F28006D360A /* CenterViewBaseController.m */; };
-		EEB177421C172904006D360A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB177411C172904006D360A /* FBSDKCoreKit.framework */; };
 		EEB177461C173073006D360A /* Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB177451C173073006D360A /* Parameters.m */; };
 		EEB177481C1733D2006D360A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB177471C1733D2006D360A /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -48,8 +89,68 @@
 /* Begin PBXFileReference section */
 		346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionistas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas.release.xcconfig"; sourceTree = "<group>"; };
 		D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionistas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionistas/Pods-Fashionistas.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5C536B1C1F0839006927DB /* DrawerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerTableViewCell.xib; sourceTree = "<group>"; };
+		EE5C536F1C1F16AD006927DB /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		EE5C53711C1F16B7006927DB /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		EE5C53721C1F16B7006927DB /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		EE5C53731C1F16B7006927DB /* signUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signUpViewController.h; sourceTree = "<group>"; };
+		EE5C53741C1F16B7006927DB /* signUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signUpViewController.m; sourceTree = "<group>"; };
+		EE5C53791C1F18AF006927DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE5C537B1C1F1A89006927DB /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		EE5C537C1C1F1A93006927DB /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		EE5C537F1C1F1ABB006927DB /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		EE5C53801C1F1ABB006927DB /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		EE5C53811C1F1ABB006927DB /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		EE5C53821C1F1ABB006927DB /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		EE5C53831C1F1ABB006927DB /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		EE5C53841C1F1ABB006927DB /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		EE5C53851C1F1ABB006927DB /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		EE5C53861C1F1ABB006927DB /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		EE5C538B1C1F9A85006927DB /* home_aboutfs_btn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_aboutfs_btn.jpg; sourceTree = "<group>"; };
+		EE5C538C1C1F9A85006927DB /* home_aboutlucia_btn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_aboutlucia_btn.jpg; sourceTree = "<group>"; };
+		EE5C538D1C1F9A85006927DB /* home_mainimg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_mainimg2.jpg; sourceTree = "<group>"; };
+		EE5C538E1C1F9A85006927DB /* home_services_btn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_services_btn.jpg; sourceTree = "<group>"; };
+		EE5C53931C205513006927DB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Downloads/FacebookSDKs-iOS-20151111/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		EE5C53951C205582006927DB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		EE5C53981C20B559006927DB /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE5C539A1C20B5F0006927DB /* GalleryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCollectionViewCell.h; sourceTree = "<group>"; };
+		EE5C539B1C20B5F0006927DB /* GalleryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCollectionViewCell.m; sourceTree = "<group>"; };
 		EE6460541C17600600091C9B /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
 		EE6460551C17600600091C9B /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
+		EE6460571C179B7600091C9B /* GalleryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryCollectionViewController.h; sourceTree = "<group>"; };
+		EE6460581C179B7600091C9B /* GalleryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryCollectionViewController.m; sourceTree = "<group>"; };
+		EE6460D51C18BB6000091C9B /* salon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = salon.json; sourceTree = "<group>"; };
+		EE6460D71C18BBC500091C9B /* SalonServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonServiceModel.h; sourceTree = "<group>"; };
+		EE6460D81C18BBC500091C9B /* SalonServiceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonServiceModel.m; sourceTree = "<group>"; };
+		EE6460DA1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonWomenHairServiceTableViewController.h; sourceTree = "<group>"; };
+		EE6460DB1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonWomenHairServiceTableViewController.m; sourceTree = "<group>"; };
+		EE6460DD1C18C83200091C9B /* ButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		EE6460DF1C18CD2C00091C9B /* SalonServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonServiceTableViewCell.h; sourceTree = "<group>"; };
+		EE6460E01C18CD2C00091C9B /* SalonServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonServiceTableViewCell.m; sourceTree = "<group>"; };
+		EE6460E21C18CF2500091C9B /* SalonMenHairTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonMenHairTableViewController.h; sourceTree = "<group>"; };
+		EE6460E31C18CF2500091C9B /* SalonMenHairTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonMenHairTableViewController.m; sourceTree = "<group>"; };
+		EE6460E51C18D0D700091C9B /* SalonNailsServiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonNailsServiceTableViewController.h; sourceTree = "<group>"; };
+		EE6460E61C18D0D700091C9B /* SalonNailsServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonNailsServiceTableViewController.m; sourceTree = "<group>"; };
+		EE6460E81C1915C500091C9B /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		EE6460E91C1915C500091C9B /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
+		EE6460ED1C1918DB00091C9B /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		EE6460EF1C191DDB00091C9B /* DrawerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerTableViewCell.h; sourceTree = "<group>"; };
+		EE6460F01C191DDB00091C9B /* DrawerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerTableViewCell.m; sourceTree = "<group>"; };
+		EE6460F21C19224600091C9B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EE6460FF1C19E32C00091C9B /* PromotionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromotionsViewController.h; sourceTree = "<group>"; };
+		EE6461001C19E32C00091C9B /* PromotionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromotionsViewController.m; sourceTree = "<group>"; };
+		EE6461021C1A066D00091C9B /* promotionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = promotionView.xib; sourceTree = "<group>"; };
+		EE6461041C1A6BAA00091C9B /* about_employeespic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about_employeespic1.jpg; sourceTree = "<group>"; };
+		EE6461051C1A6BAA00091C9B /* about_employeespic6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about_employeespic6.jpg; sourceTree = "<group>"; };
+		EE6461061C1A6BAA00091C9B /* about_employeespic8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about_employeespic8.jpg; sourceTree = "<group>"; };
+		EE6461071C1A6BAA00091C9B /* about_employeesubhead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about_employeesubhead.jpg; sourceTree = "<group>"; };
+		EE6461081C1A6BAA00091C9B /* aboutfs_head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutfs_head.jpg; sourceTree = "<group>"; };
+		EE64610E1C1A6BD000091C9B /* h_monthlyspecials.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h_monthlyspecials.jpg; sourceTree = "<group>"; };
+		EE64610F1C1A6BD000091C9B /* promo_head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promo_head.jpg; sourceTree = "<group>"; };
+		EE6461101C1A6BD000091C9B /* promotion_referallsubhead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promotion_referallsubhead.jpg; sourceTree = "<group>"; };
+		EE6461141C1A6BEA00091C9B /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		EE6461161C1A7B9000091C9B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		EE6461171C1A7B9000091C9B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		EEB176E61C1601F8006D360A /* Fashionistas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashionistas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB176EA1C1601F8006D360A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEB176EC1C1601F8006D360A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,9 +190,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5C53971C205C10006927DB /* FBSDKCoreKit.framework in Frameworks */,
+				EE5C53961C205582006927DB /* FBSDKLoginKit.framework in Frameworks */,
+				EE6460F31C19224600091C9B /* MessageUI.framework in Frameworks */,
 				20DCBD127C04E282A551A394 /* libPods-Fashionistas.a in Frameworks */,
 				EEB177481C1733D2006D360A /* MapKit.framework in Frameworks */,
-				EEB177421C172904006D360A /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,11 +227,75 @@
 		DA85BA2A16E523EF5EB9E04E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EE5C53951C205582006927DB /* FBSDKLoginKit.framework */,
+				EE5C53931C205513006927DB /* FBSDKLoginKit.framework */,
+				EE6460F21C19224600091C9B /* MessageUI.framework */,
 				EEB177471C1733D2006D360A /* MapKit.framework */,
 				EEB177411C172904006D360A /* FBSDKCoreKit.framework */,
 				FE9687D5D646D92FDAEF0FCA /* libPods-Fashionistas.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE5C536E1C1F16A0006927DB /* signin */ = {
+			isa = PBXGroup;
+			children = (
+				EE5C536F1C1F16AD006927DB /* SignIn.storyboard */,
+				EE5C53711C1F16B7006927DB /* SignInViewController.h */,
+				EE5C53721C1F16B7006927DB /* SignInViewController.m */,
+				EE5C53731C1F16B7006927DB /* signUpViewController.h */,
+				EE5C53741C1F16B7006927DB /* signUpViewController.m */,
+			);
+			name = signin;
+			sourceTree = "<group>";
+		};
+		EE5C537E1C1F1AAB006927DB /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				EE5C537F1C1F1ABB006927DB /* AESCrypt.h */,
+				EE5C53801C1F1ABB006927DB /* AESCrypt.m */,
+				EE5C53811C1F1ABB006927DB /* NSData+Base64.h */,
+				EE5C53821C1F1ABB006927DB /* NSData+Base64.m */,
+				EE5C53831C1F1ABB006927DB /* NSData+CommonCrypto.h */,
+				EE5C53841C1F1ABB006927DB /* NSData+CommonCrypto.m */,
+				EE5C53851C1F1ABB006927DB /* NSString+Base64.h */,
+				EE5C53861C1F1ABB006927DB /* NSString+Base64.m */,
+			);
+			name = AES;
+			sourceTree = "<group>";
+		};
+		EE64605B1C17CB5200091C9B /* GallerySource */ = {
+			isa = PBXGroup;
+			children = (
+				EE5C538B1C1F9A85006927DB /* home_aboutfs_btn.jpg */,
+				EE5C538C1C1F9A85006927DB /* home_aboutlucia_btn.jpg */,
+				EE5C538D1C1F9A85006927DB /* home_mainimg2.jpg */,
+				EE5C538E1C1F9A85006927DB /* home_services_btn.jpg */,
+				EE64610E1C1A6BD000091C9B /* h_monthlyspecials.jpg */,
+				EE64610F1C1A6BD000091C9B /* promo_head.jpg */,
+				EE6461101C1A6BD000091C9B /* promotion_referallsubhead.jpg */,
+				EE6461041C1A6BAA00091C9B /* about_employeespic1.jpg */,
+				EE6461051C1A6BAA00091C9B /* about_employeespic6.jpg */,
+				EE6461061C1A6BAA00091C9B /* about_employeespic8.jpg */,
+				EE6461071C1A6BAA00091C9B /* about_employeesubhead.jpg */,
+				EE6461081C1A6BAA00091C9B /* aboutfs_head.jpg */,
+				EE6460ED1C1918DB00091C9B /* logo.jpg */,
+			);
+			name = GallerySource;
+			path = Fashionistas/GallerySource;
+			sourceTree = "<group>";
+		};
+		EE6460D21C18B27700091C9B /* serviceControllerSub */ = {
+			isa = PBXGroup;
+			children = (
+				EE6460DA1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.h */,
+				EE6460DB1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.m */,
+				EE6460E21C18CF2500091C9B /* SalonMenHairTableViewController.h */,
+				EE6460E31C18CF2500091C9B /* SalonMenHairTableViewController.m */,
+				EE6460E51C18D0D700091C9B /* SalonNailsServiceTableViewController.h */,
+				EE6460E61C18D0D700091C9B /* SalonNailsServiceTableViewController.m */,
+			);
+			name = serviceControllerSub;
 			sourceTree = "<group>";
 		};
 		EEB176DD1C1601F8006D360A = {
@@ -138,6 +305,7 @@
 				EEB177051C1601F8006D360A /* FashionistasTests */,
 				EEB177101C1601F8006D360A /* FashionistasUITests */,
 				EEB176E71C1601F8006D360A /* Products */,
+				EE64605B1C17CB5200091C9B /* GallerySource */,
 				D3C97DACD8DC7474D07E981F /* Pods */,
 				DA85BA2A16E523EF5EB9E04E /* Frameworks */,
 			);
@@ -167,6 +335,7 @@
 				EEB176F81C1601F8006D360A /* Assets.xcassets */,
 				EEB176FA1C1601F8006D360A /* LaunchScreen.storyboard */,
 				EEB176FD1C1601F8006D360A /* Info.plist */,
+				EE5C53791C1F18AF006927DB /* GoogleService-Info.plist */,
 				EEB176F51C1601F8006D360A /* Fashionistas.xcdatamodeld */,
 				EEB176E91C1601F8006D360A /* Supporting Files */,
 			);
@@ -202,6 +371,10 @@
 		EEB1771F1C1602DE006D360A /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				EE5C537B1C1F1A89006927DB /* Config.h */,
+				EE5C537C1C1F1A93006927DB /* Config.m */,
+				EE5C536E1C1F16A0006927DB /* signin */,
+				EE6460D21C18B27700091C9B /* serviceControllerSub */,
 				EEB177351C1617AB006D360A /* drawer */,
 				EEB177231C160DB9006D360A /* HomeViewController.h */,
 				EEB177241C160DB9006D360A /* HomeViewController.m */,
@@ -211,6 +384,14 @@
 				EEB1772D1C161036006D360A /* LeftDrawerController.m */,
 				EEB1772F1C161065006D360A /* LeftDrawerTableContentController.h */,
 				EEB177301C161065006D360A /* LeftDrawerTableContentController.m */,
+				EE6460571C179B7600091C9B /* GalleryCollectionViewController.h */,
+				EE6460581C179B7600091C9B /* GalleryCollectionViewController.m */,
+				EE6460E81C1915C500091C9B /* AppointmentViewController.h */,
+				EE6460E91C1915C500091C9B /* AppointmentViewController.m */,
+				EE6460FF1C19E32C00091C9B /* PromotionsViewController.h */,
+				EE6461001C19E32C00091C9B /* PromotionsViewController.m */,
+				EE6461161C1A7B9000091C9B /* AboutViewController.h */,
+				EE6461171C1A7B9000091C9B /* AboutViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -218,8 +399,13 @@
 		EEB177201C1602E4006D360A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				EE6460D51C18BB6000091C9B /* salon.json */,
 				EE6460541C17600600091C9B /* PlaceAnnotation.h */,
 				EE6460551C17600600091C9B /* PlaceAnnotation.m */,
+				EE6460D71C18BBC500091C9B /* SalonServiceModel.h */,
+				EE6460D81C18BBC500091C9B /* SalonServiceModel.m */,
+				EE6460DF1C18CD2C00091C9B /* SalonServiceTableViewCell.h */,
+				EE6460E01C18CD2C00091C9B /* SalonServiceTableViewCell.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -227,6 +413,15 @@
 		EEB177211C1602E8006D360A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				EE6460DD1C18C83200091C9B /* ButtonCell.xib */,
+				EE6461021C1A066D00091C9B /* promotionView.xib */,
+				EE6461141C1A6BEA00091C9B /* AboutView.xib */,
+				EE5C536B1C1F0839006927DB /* DrawerTableViewCell.xib */,
+				EE6460EF1C191DDB00091C9B /* DrawerTableViewCell.h */,
+				EE6460F01C191DDB00091C9B /* DrawerTableViewCell.m */,
+				EE5C53981C20B559006927DB /* GalleryCollectionViewCell.xib */,
+				EE5C539A1C20B5F0006927DB /* GalleryCollectionViewCell.h */,
+				EE5C539B1C20B5F0006927DB /* GalleryCollectionViewCell.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -252,6 +447,7 @@
 		EEB177431C173035006D360A /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				EE5C537E1C1F1AAB006927DB /* AES */,
 				EEB177441C173073006D360A /* Parameters.h */,
 				EEB177451C173073006D360A /* Parameters.m */,
 			);
@@ -328,7 +524,7 @@
 				TargetAttributes = {
 					EEB176E51C1601F8006D360A = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = H24WV8N3GG;
+						DevelopmentTeam = KKX8KEUZ6R;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -373,8 +569,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB176FC1C1601F8006D360A /* LaunchScreen.storyboard in Resources */,
+				EE5C53901C1F9A85006927DB /* home_aboutlucia_btn.jpg in Resources */,
+				EE5C53911C1F9A85006927DB /* home_mainimg2.jpg in Resources */,
 				EEB176F91C1601F8006D360A /* Assets.xcassets in Resources */,
+				EE6461131C1A6BD000091C9B /* promotion_referallsubhead.jpg in Resources */,
+				EE6460EE1C1918DB00091C9B /* logo.jpg in Resources */,
+				EE5C53701C1F16AD006927DB /* SignIn.storyboard in Resources */,
+				EE6461151C1A6BEA00091C9B /* AboutView.xib in Resources */,
+				EE64610D1C1A6BAA00091C9B /* aboutfs_head.jpg in Resources */,
+				EE64610A1C1A6BAA00091C9B /* about_employeespic6.jpg in Resources */,
+				EE6461091C1A6BAA00091C9B /* about_employeespic1.jpg in Resources */,
+				EE6460D61C18BB6000091C9B /* salon.json in Resources */,
+				EE6460DE1C18C83200091C9B /* ButtonCell.xib in Resources */,
+				EE5C53991C20B559006927DB /* GalleryCollectionViewCell.xib in Resources */,
+				EE5C537A1C1F18AF006927DB /* GoogleService-Info.plist in Resources */,
+				EE6461031C1A066D00091C9B /* promotionView.xib in Resources */,
+				EE6461111C1A6BD000091C9B /* h_monthlyspecials.jpg in Resources */,
+				EE5C538F1C1F9A85006927DB /* home_aboutfs_btn.jpg in Resources */,
+				EE5C53921C1F9A85006927DB /* home_services_btn.jpg in Resources */,
+				EE5C536C1C1F0839006927DB /* DrawerTableViewCell.xib in Resources */,
+				EE6461121C1A6BD000091C9B /* promo_head.jpg in Resources */,
 				EEB176F41C1601F8006D360A /* Main.storyboard in Resources */,
+				EE64610C1C1A6BAA00091C9B /* about_employeesubhead.jpg in Resources */,
+				EE64610B1C1A6BAA00091C9B /* about_employeespic8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,16 +665,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB177311C161065006D360A /* LeftDrawerTableContentController.m in Sources */,
+				EE5C538A1C1F1ABB006927DB /* NSString+Base64.m in Sources */,
 				EEB177341C161792006D360A /* MMNavigationController.m in Sources */,
+				EE6460DC1C18C23E00091C9B /* SalonWomenHairServiceTableViewController.m in Sources */,
+				EE6461011C19E32C00091C9B /* PromotionsViewController.m in Sources */,
 				EEB1773B1C162D11006D360A /* ServiceViewController.m in Sources */,
+				EE5C537D1C1F1A93006927DB /* Config.m in Sources */,
 				EEB176F71C1601F8006D360A /* Fashionistas.xcdatamodeld in Sources */,
+				EE5C53761C1F16B7006927DB /* signUpViewController.m in Sources */,
+				EE6460E71C18D0D700091C9B /* SalonNailsServiceTableViewController.m in Sources */,
 				EEB176EE1C1601F8006D360A /* AppDelegate.m in Sources */,
+				EE6461181C1A7B9000091C9B /* AboutViewController.m in Sources */,
+				EE6460591C179B7600091C9B /* GalleryCollectionViewController.m in Sources */,
+				EE6460E11C18CD2C00091C9B /* SalonServiceTableViewCell.m in Sources */,
+				EE5C53751C1F16B7006927DB /* SignInViewController.m in Sources */,
+				EE5C53871C1F1ABB006927DB /* AESCrypt.m in Sources */,
 				EE6460561C17600600091C9B /* PlaceAnnotation.m in Sources */,
 				EEB177461C173073006D360A /* Parameters.m in Sources */,
+				EE5C53881C1F1ABB006927DB /* NSData+Base64.m in Sources */,
 				EEB177251C160DB9006D360A /* HomeViewController.m in Sources */,
+				EE5C53891C1F1ABB006927DB /* NSData+CommonCrypto.m in Sources */,
+				EE6460D91C18BBC500091C9B /* SalonServiceModel.m in Sources */,
+				EE6460E41C18CF2500091C9B /* SalonMenHairTableViewController.m in Sources */,
 				EEB1772E1C161036006D360A /* LeftDrawerController.m in Sources */,
+				EE6460F11C191DDB00091C9B /* DrawerTableViewCell.m in Sources */,
 				EEB1773E1C162F28006D360A /* CenterViewBaseController.m in Sources */,
+				EE6460EA1C1915C500091C9B /* AppointmentViewController.m in Sources */,
 				EEB176EB1C1601F8006D360A /* main.m in Sources */,
+				EE5C539C1C20B5F0006927DB /* GalleryCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +764,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Software Merchant Inc. (KKX8KEUZ6R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Software Merchant Inc. (KKX8KEUZ6R)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -548,9 +784,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "81cdd544-0316-4b13-90a3-198708e47bac";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -572,7 +809,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Software Merchant Inc. (KKX8KEUZ6R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Software Merchant Inc. (KKX8KEUZ6R)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -585,8 +823,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "81cdd544-0316-4b13-90a3-198708e47bac";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -597,14 +836,19 @@
 			baseConfigurationReference = D742C07D45797BC148863669 /* Pods-Fashionistas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Fashionistas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sm.Fashionistas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwaremerchant.Fashionistas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -613,14 +857,19 @@
 			baseConfigurationReference = 346542FE02C46E3DF46DA5BC /* Pods-Fashionistas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Fashionistas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sm.Fashionistas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softwaremerchant.Fashionistas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

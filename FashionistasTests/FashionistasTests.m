@@ -8,6 +8,8 @@
 
 #import <XCTest/XCTest.h>
 #import <MapKit/MapKit.h>
+#import "SalonServiceModel.h"
+#import "Config.h"
 
 @interface FashionistasTests : XCTestCase
 
@@ -42,11 +44,11 @@
     }];
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testWomenHairDictionary
+{
+    SalonServiceModel *model = [SalonServiceModel sharedSalonServiceModel];
+    NSLog(@"women hair--->%@",[model womenHair]);
 }
+
 
 @end

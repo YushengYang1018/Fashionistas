@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "CenterViewBaseController.h"
+#import "XLButtonBarPagerTabStripViewController.h"
+#import <MMDrawerController/UIViewController+MMDrawerController.h>
+#import <MMDrawerController/MMDrawerBarButtonItem.h>
 
-@interface ServiceViewController : CenterViewBaseController
+@interface ServiceViewController : XLButtonBarPagerTabStripViewController
 
 @end

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aboutfs_head.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JrR-FV-fcx">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="d5s-b8-hbD"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="d5s-b8-hbD"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="d5s-b8-hbD"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_employeespic1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tso-iq-uvy">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="UGy-rH-zmb"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="UGy-rH-zmb"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="UGy-rH-zmb"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xgX-7O-OXy">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="384" id="meH-D0-FZ1">
+                            <variation key="heightClass=regular-widthClass=compact" constant="385"/>
+                        </constraint>
+                    </constraints>
+                    <string key="text">Just like her mother, Danielle has been passionate about cosmetology since she was a very young girl. "My mother was a hair dresser before I was born," she says. "I was introduced to the career at a very young age." For nearly a decade, Danielle has worked in the beauty industry continually absorbing all of the knowledge that she could to prepare her for ownership of Fashionistas Salon. As part of the mother-daughter ownership team, Danielle's skills range from thermal straighteners, multi-color techniques to cutting, styling, facials, body waxing, formal dress work and acrylic nail applications. Recently, Danielle became part of Logics team of educators where she inspires the rest of the Fashionistas' team with the latest trends and innovative ideas and is also a Matrix Certified Color Master.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="meH-D0-FZ1"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="meH-D0-FZ1"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_employeesubhead.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rVv-xA-qxs">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="6nX-8t-qdZ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6nX-8t-qdZ"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6nX-8t-qdZ"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yYY-gI-Wbc">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="8VQ-Fj-d3F"/>
+                    </constraints>
+                    <string key="text">Better beauty experiences for everybody
+Collegeville, Pennsylvania's full-service salon is prepared in every way to make you look amazing in every way. Talent and creativity combine in a staff with decades total experience and an eye on current trends and upcoming styles.
+
+Fashionistas Salon is a salon for everyone, delivering excellent hair coloring results and executing the most dramatic up-dos but– as a part of our complete salon experience– our stylists are adept at every aspect of beautification. Women and men might enter our comfortable salon as themselves only to depart as a rejuvenated and radiant Fashionista!</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="8VQ-Fj-d3F"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="8VQ-Fj-d3F"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_employeespic6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AeR-FX-BFt">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="uOF-MZ-Lbn"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="uOF-MZ-Lbn"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="uOF-MZ-Lbn"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vr8-vc-o0s">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="365" id="Ik9-aA-SS7">
+                            <variation key="heightClass=regular-widthClass=compact" constant="300"/>
+                        </constraint>
+                    </constraints>
+                    <string key="text">Vivacious and bubbly Jenna has been a professional hair stylist for seven years. Always smiling, Jenna says that she enjoys her chosen profession very much. "I love making people feel better about themselves," she offers. Jenna especially likes helping Fashionistas Salon customers achieve the style of their dreams. Whether you know exactly what you want or you require a consultation to help you select a style, Fashionistas Salon is the perfect choice for the style that will fit you best. Perhaps Jenna says it best when she adds, "I'm always excited to help people find the exact style that they've been looking for."
+</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Ik9-aA-SS7"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Ik9-aA-SS7"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RWI-9w-VO3">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="470" id="co3-Ag-P8H"/>
+                    </constraints>
+                    <string key="text">Diane is very artistic professional who takes the beauty of hair styling and caters it to the needs of each and every client. She has been in the beauty industry for almost 20 years. With her extensive cosmetology skills, easygoing personality, and passion to bring out the best in people, Diane has garnered a loyal following of repeat customers who trust her to help them look and feel beautiful.  "I believe in helping my customers find their own unique style that will make them feel pretty and confident." Diane masterfully incorporates the latest fashion trends with an understated elegance that really shines in the smiles of her many satisfied clients.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="co3-Ag-P8H"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="co3-Ag-P8H"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_employeespic8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JMo-zK-mwu">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="SX0-6B-XDl"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="SX0-6B-XDl"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="SX0-6B-XDl"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xgX-7O-OXy" firstAttribute="top" secondItem="rVv-xA-qxs" secondAttribute="bottom" constant="8" id="2zf-Ym-2Tl"/>
+                <constraint firstItem="vr8-vc-o0s" firstAttribute="top" secondItem="xgX-7O-OXy" secondAttribute="bottom" constant="8" id="3no-4j-IGM"/>
+                <constraint firstAttribute="trailing" secondItem="RWI-9w-VO3" secondAttribute="trailing" constant="8" id="3u5-85-CHc"/>
+                <constraint firstItem="JrR-FV-fcx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6zg-Aj-Ac4"/>
+                <constraint firstItem="rVv-xA-qxs" firstAttribute="top" secondItem="yYY-gI-Wbc" secondAttribute="bottom" constant="8" id="9lh-aw-3jn"/>
+                <constraint firstAttribute="trailing" secondItem="rVv-xA-qxs" secondAttribute="trailing" constant="8" id="GDu-GB-dDe"/>
+                <constraint firstItem="JMo-zK-mwu" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="JHT-CX-pyH"/>
+                <constraint firstItem="rVv-xA-qxs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="XE2-24-DoB"/>
+                <constraint firstAttribute="trailing" secondItem="yYY-gI-Wbc" secondAttribute="trailing" constant="8" id="Z6q-xH-c4G"/>
+                <constraint firstItem="vr8-vc-o0s" firstAttribute="leading" secondItem="AeR-FX-BFt" secondAttribute="trailing" constant="16" id="al9-oL-iU0">
+                    <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                </constraint>
+                <constraint firstItem="RWI-9w-VO3" firstAttribute="top" secondItem="JMo-zK-mwu" secondAttribute="top" id="bQ8-OK-m3W"/>
+                <constraint firstItem="AeR-FX-BFt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="bau-0V-LlB"/>
+                <constraint firstAttribute="trailing" secondItem="JrR-FV-fcx" secondAttribute="trailing" id="cAf-Bm-JFD"/>
+                <constraint firstAttribute="trailing" secondItem="xgX-7O-OXy" secondAttribute="trailing" id="dAE-43-sBW"/>
+                <constraint firstItem="vr8-vc-o0s" firstAttribute="top" secondItem="AeR-FX-BFt" secondAttribute="top" id="dLW-Zm-MLa"/>
+                <constraint firstItem="tso-iq-uvy" firstAttribute="top" secondItem="rVv-xA-qxs" secondAttribute="bottom" constant="8" id="dT1-FM-FSO"/>
+                <constraint firstAttribute="trailing" secondItem="vr8-vc-o0s" secondAttribute="trailing" constant="8" id="hWM-GJ-mA5"/>
+                <constraint firstItem="tso-iq-uvy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="jt9-dt-Zp6"/>
+                <constraint firstItem="yYY-gI-Wbc" firstAttribute="top" secondItem="JrR-FV-fcx" secondAttribute="bottom" constant="8" id="kV1-dd-pmJ"/>
+                <constraint firstItem="xgX-7O-OXy" firstAttribute="leading" secondItem="tso-iq-uvy" secondAttribute="trailing" constant="16" id="s0X-Ad-N4c">
+                    <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                </constraint>
+                <constraint firstItem="RWI-9w-VO3" firstAttribute="top" secondItem="vr8-vc-o0s" secondAttribute="bottom" constant="56" id="sgR-s8-mzT">
+                    <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                </constraint>
+                <constraint firstItem="JrR-FV-fcx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xSM-vY-7Gk"/>
+                <constraint firstItem="yYY-gI-Wbc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="yfA-tc-Ujy"/>
+                <constraint firstItem="RWI-9w-VO3" firstAttribute="leading" secondItem="JMo-zK-mwu" secondAttribute="trailing" constant="16" id="ypa-uD-xzt">
+                    <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                </constraint>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="JrR-FV-fcx"/>
+                    <exclude reference="tso-iq-uvy"/>
+                    <exclude reference="xgX-7O-OXy"/>
+                    <exclude reference="rVv-xA-qxs"/>
+                    <exclude reference="yYY-gI-Wbc"/>
+                    <exclude reference="AeR-FX-BFt"/>
+                    <exclude reference="vr8-vc-o0s"/>
+                    <exclude reference="RWI-9w-VO3"/>
+                    <exclude reference="JMo-zK-mwu"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="bau-0V-LlB"/>
+                    <exclude reference="JHT-CX-pyH"/>
+                    <exclude reference="6zg-Aj-Ac4"/>
+                    <exclude reference="cAf-Bm-JFD"/>
+                    <exclude reference="xSM-vY-7Gk"/>
+                    <exclude reference="3u5-85-CHc"/>
+                    <exclude reference="bQ8-OK-m3W"/>
+                    <exclude reference="sgR-s8-mzT"/>
+                    <exclude reference="ypa-uD-xzt"/>
+                    <exclude reference="9lh-aw-3jn"/>
+                    <exclude reference="GDu-GB-dDe"/>
+                    <exclude reference="XE2-24-DoB"/>
+                    <exclude reference="dT1-FM-FSO"/>
+                    <exclude reference="jt9-dt-Zp6"/>
+                    <exclude reference="3no-4j-IGM"/>
+                    <exclude reference="al9-oL-iU0"/>
+                    <exclude reference="dLW-Zm-MLa"/>
+                    <exclude reference="hWM-GJ-mA5"/>
+                    <exclude reference="2zf-Ym-2Tl"/>
+                    <exclude reference="dAE-43-sBW"/>
+                    <exclude reference="s0X-Ad-N4c"/>
+                    <exclude reference="Z6q-xH-c4G"/>
+                    <exclude reference="kV1-dd-pmJ"/>
+                    <exclude reference="yfA-tc-Ujy"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="JrR-FV-fcx"/>
+                    <include reference="tso-iq-uvy"/>
+                    <include reference="xgX-7O-OXy"/>
+                    <include reference="rVv-xA-qxs"/>
+                    <include reference="yYY-gI-Wbc"/>
+                    <include reference="AeR-FX-BFt"/>
+                    <include reference="vr8-vc-o0s"/>
+                    <include reference="RWI-9w-VO3"/>
+                    <include reference="JMo-zK-mwu"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="bau-0V-LlB"/>
+                    <include reference="JHT-CX-pyH"/>
+                    <include reference="6zg-Aj-Ac4"/>
+                    <include reference="cAf-Bm-JFD"/>
+                    <include reference="xSM-vY-7Gk"/>
+                    <include reference="3u5-85-CHc"/>
+                    <include reference="bQ8-OK-m3W"/>
+                    <include reference="sgR-s8-mzT"/>
+                    <include reference="ypa-uD-xzt"/>
+                    <include reference="9lh-aw-3jn"/>
+                    <include reference="GDu-GB-dDe"/>
+                    <include reference="XE2-24-DoB"/>
+                    <include reference="dT1-FM-FSO"/>
+                    <include reference="jt9-dt-Zp6"/>
+                    <include reference="3no-4j-IGM"/>
+                    <include reference="al9-oL-iU0"/>
+                    <include reference="dLW-Zm-MLa"/>
+                    <include reference="hWM-GJ-mA5"/>
+                    <include reference="2zf-Ym-2Tl"/>
+                    <include reference="dAE-43-sBW"/>
+                    <include reference="s0X-Ad-N4c"/>
+                    <include reference="Z6q-xH-c4G"/>
+                    <include reference="kV1-dd-pmJ"/>
+                    <include reference="yfA-tc-Ujy"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="278" y="827.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about_employeespic1.jpg" width="418" height="118"/>
+        <image name="about_employeespic6.jpg" width="418" height="118"/>
+        <image name="about_employeespic8.jpg" width="418" height="118"/>
+        <image name="about_employeesubhead.jpg" width="423" height="104"/>
+        <image name="aboutfs_head.jpg" width="431" height="130"/>
+    </resources>
+</document>

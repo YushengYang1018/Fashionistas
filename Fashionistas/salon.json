@@ -1,0 +1,57 @@
+{
+  "women hair":{
+    "Haircut":"$37+",
+    "Children’s haircuts":"$10-$15",
+    "Blow-Dry Styles":"$27+",
+    "Up-do Styles":"$75+",
+    "Single Process (roots only)":"$51",
+    "Single Process (roots to ends)":"$71",
+    "Full Head Foil":"$81+",
+    "Partial Foil":"$61+",
+    "Partial Foil w/Color in Between":"$102+",
+    "Customized Foil Technique":"$6 per foil",
+    "10 min. Permanent Color by Schwarzkopf":"$59+",
+    "Keratin Complex Express":"$75",
+    "Keratin Anti-curl":"$91+",
+    "Keratin Treatment":"$121+",
+    "Keratin Advanced Treatment":"$275",
+    "Japanese Thermal Straightener":"$127/hr.",
+    "Regular Perm":"$79+",
+    "Specialty Perms":"$99+"
+  },
+  "men hair":{
+    "Men’s & Teenager’s Haircuts":"$27+",
+    "Conditioning Treatments":"$15+",
+    "Men’s color Blending":"$40",
+    "Three-Dimensional Color":"$42"  
+  },
+  "nails":{
+    "standerd care":{
+        "Regular Manicure":"$20",
+        "Gel Manicure":"$27",
+        "Clear Gel Coat":"$5+",
+        "Men's Classic Manicure":"$22",
+        "French Manicure":"$22",
+        "Nail Art":"$5",
+        "Natural Nail Buff & Polish Change":"$12",
+        "Spa Pedicure":"$45",
+        "Men's Traditional Pedicure":"$45",
+        "Toe Polish Change":"$15"
+    },
+    "acrylic nails":{
+      "Full Set":"$47",
+      "Full Set (pink and white)":"$67",
+      "Refill":"$32",
+      "Refill (pink and white)":"$42",
+      "Acrylic Nail Buff & Polish Change":"$15"
+    }
+  },
+  "waxing":{
+    "Eyebrow Wax":"@12",
+    "Lip Wax":"$8",
+    "Chin Wax":"$12"
+  },
+  "make-up":{
+    "Make-up Application":"$65"
+  }
+}

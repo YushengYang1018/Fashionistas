@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "MMNavigationController.h"
+#import "SignInViewController.h"
+#import <Parse/Parse.h>
+
 
 @interface AppDelegate ()
 
@@ -18,33 +21,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    //Google sign in
+    NSError* configureError;
+    [[GGLContext sharedInstance] configureWithError: &configureError];
+    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
+    [GIDSignIn sharedInstance].delegate = self;
     
-    UIViewController *centerViewController = [storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
-    UIViewController *leftViewController = [storyboard instantiateViewControllerWithIdentifier:@"LeftDrawerController"];
+    //Parse
+    //register Parse
+    [Parse setApplicationId:@"KZKPd6qb58K4VOw5n7aeDAgVSXsCSU3uywfJsi4X"
+                  clientKey:@"ranWyxLglbXHJddUuuAWCsbLF0hufUSn8Wgh1yCC"];
     
-    UINavigationController *navigationController = [[MMNavigationController alloc]initWithRootViewController:centerViewController];
-
-    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:navigationController leftDrawerViewController:leftViewController];
-    [self.drawerController setShowsShadow:NO];
-    [self.drawerController setRestorationIdentifier:@"MMDrawer"];
-    [self.drawerController setMaximumRightDrawerWidth:200.0];
-    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
-    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
-    
-    UIColor * tintColor = [UIColor colorWithRed:29.0/255.0
-                                          green:173.0/255.0
-                                           blue:234.0/255.0
-                                          alpha:1.0];
-    [self.window setTintColor:tintColor];
-    [self.window setRootViewController:self.drawerController];
-    
+    UIStoryboard *storyBoard = nil;
+    id firstVC = nil;
+    if ([Config isLogedIn]) {
+        [self setDrawerCenterWindow];
+    } else {
+        storyBoard = [UIStoryboard storyboardWithName:@"SignIn" bundle:nil];
+        firstVC = (SignInViewController *)storyBoard.instantiateInitialViewController;
+        [self.window setRootViewController:firstVC];
+    }
     //facebook
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
     
     
     return YES;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -59,11 +66,6 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -152,13 +154,77 @@
     }
 }
 
-#pragma mark - facebook configure
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    return [[FBSDKApplicationDelegate sharedInstance] application:application
-                                                          openURL:url
-                                                sourceApplication:sourceApplication
-                                                       annotation:annotation
-            ];
+#pragma mark - Google and Facebook SignIn 
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    NSLog(@"string URL-->%@", url);
+    return [[GIDSignIn sharedInstance] handleURL:url
+                               sourceApplication:sourceApplication
+                                      annotation:annotation] || [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                                                               openURL:url
+                                                                                                     sourceApplication:sourceApplication
+                                                                                                            annotation:annotation
+                                                                 ];
+}
+
+- (void)signIn:(GIDSignIn *)signIn didSignInForUser:(GIDGoogleUser *)user withError:(NSError *)error
+{
+    NSString *userId = user.userID;                  // For client-side use only!
+    NSString *idToken = user.authentication.idToken; // Safe to send to the server
+    NSString *name = user.profile.name;
+    NSString *email = user.profile.email;
+    NSLog(@"userId--->%@, idToken-->%@, name-->%@, email-->%@",userId,idToken,name,email);
+    if ([Config isExistUserId:userId]) {
+        NSUserDefaults *settings = [NSUserDefaults standardUserDefaults];
+        [settings removeObjectForKey:@"username"];
+        [settings removeObjectForKey:@"password"];
+        [settings removeObjectForKey:@"email"];
+        [settings removeObjectForKey:@"userId"];
+        
+        [settings setObject:email forKey:@"email"];
+        [settings setObject:name forKey:@"username"];
+        [settings setObject:userId forKey:@"userId"];
+        [settings setObject:@"" forKey:@"password"];
+        
+        [settings synchronize];
+    } else {
+        [Config saveUserId:userId andUsername:name andEmail:email andPassword:@""];
+    }
+    [self setDrawerCenterWindow];
+}
+
+- (void)signIn:(GIDSignIn *)signIn
+didDisconnectWithUser:(GIDGoogleUser *)user
+     withError:(NSError *)error {
+
+}
+
+- (void)setDrawerCenterWindow
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    UIViewController *centerViewController = [storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+    UIViewController *leftViewController = [storyboard instantiateViewControllerWithIdentifier:@"LeftDrawerController"];
+    
+    UINavigationController *navigationController = [[MMNavigationController alloc]initWithRootViewController:centerViewController];
+    
+    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:navigationController leftDrawerViewController:leftViewController];
+    [self.drawerController setShowsShadow:NO];
+    [self.drawerController setRestorationIdentifier:@"MMDrawer"];
+    [self.drawerController setMaximumRightDrawerWidth:200.0];
+    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    UIColor * tintColor = [UIColor colorWithRed:29.0/255.0
+                                          green:173.0/255.0
+                                           blue:234.0/255.0
+                                          alpha:1.0];
+    [self.window setTintColor:tintColor];
+    [self.window setRootViewController:self.drawerController];
+    [self.window makeKeyAndVisible];
 }
 
 @end
